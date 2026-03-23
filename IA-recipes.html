@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cupcake Recipes</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+            margin: 0;
+            padding: 0;
+            background-color: rgb(248, 240, 227);
+        }
+        body::selection{
+            color: #7d7272;
+            background-color: rgb(250, 242, 222);
+        }
+
+        header {
+            background-color:rgb(231, 219, 200);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            color:  #625347;
+        }
+
+        .recipe-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .recipe-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .recipe-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .recipe-card button {  
+            background-color: #ff8a80; /* Light red */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+       
+        .navbar {
+            background-color: rgb(200, 184, 161);
+            padding: 10px 20px;
+           
+        }
+        .menu {
+            list-style: none;
+            margin: 1px;;
+            padding: 1px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu li {
+            margin: 0 15px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 12px;
+        }
+        .menu a:hover {
+            background: #f9f5f5;
+            color:brown;
+            border-radius: 5px;
+        }
+        .menu img {
+            border-radius: 15px ;
+        }
+        button:hover { background-color: #f4e4d8; }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="IA-1.html">Home</a></li>
+            <li><a href="IA-recipes.html">Recipes</a></li>
+            <li><a href="IA-contact.html">About</a></li>
+            <li><a href="IA-LOGIN.html">Sign Up</a></li>
+            <li>
+                <img  src="cupcakeimg.jpg" width="40 px" height="40 px">
+                
+            </li>
+        </ul>   
+    </nav>
+    <header>
+        <h1>Delicious Cupcake Recipes</h1>
+    </header> 
+
+    <div class="recipe-container">
+        <div class="recipe-card">
+            <img src="choco.jpg" alt="Chocolate Cupcake">
+            <h2>Chocolate Cupcake</h2>
+            <a href="IA-chocoR.html">
+                <button >View Recipe</button>
+            </a>
+            
+        </div>
+
+        <div class="recipe-card">
+            <img src="vanilla.jpg" alt="Vanilla Cupcake">
+            <h2>Vanilla Cupcake</h2>
+            <a href="IA-vanillaR.html">
+                <button>View Recipe</button>
+            </a>
+        </div>
+
+        <div class="recipe-card">
+            <img src="cinnam.jpg" alt="Cinnamon Cupcake">
+            <h2>Cinnamon Cupcake</h2>
+            <a href="IA-cinnaR.html">
+                <button>View Recipe</button>
+            </a>
+            
+        </div>
+
+        <div class="recipe-card">
+            <img src="coffee.jpg" alt="Coffee Cupcake">
+            <h2>Coffee Cupcake</h2>
+            <a href="IA-coffeeR.html">
+                <button>View Recipe</button>
+            </a>
+        </div>
+
+        <div class="recipe-card">
+            <img src="caraaamel.jpg" alt="Caramel Cupcake">
+            <h2>Caramel Cupcake</h2>
+            <a href="IA-caramelR.html">
+                <button>View Recipe</button>
+            </a>
+        </div>
+       
+        <div class="recipe-card">
+            <img src="steawberry.jpg" alt="Strawberry Cupcake">
+            <h2>Strawberry Cupcake</h2>
+            <a href="IA-strawberryR.html">
+                <button>View Recipe</button>
+            </a>
+        </div>
+    </div> 
+
+    <script>
+        
+    </script>
+</body>
+</html>

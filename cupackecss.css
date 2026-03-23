@@ -1,0 +1,105 @@
+/* style.css */
+body {
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #f0c808; /* Example header color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif; /* Use a decorative font for headings */
+    color: #fff; /* White heading text */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.featured-recipe {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.featured-recipe img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.recipe-category {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflowing image */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1)
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    display: block; /* Prevent image from creating extra space */
+}
+
+.recipe-card h3 {
+    padding: 10px;
+    margin:0;
+    text-align: center;
+}
+
+.recipe-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0c808; /* Example button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px auto; /* Center the button */
+    display: block; /* Make it a block element for centering */
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
